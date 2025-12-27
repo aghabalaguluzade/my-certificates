@@ -92,7 +92,7 @@ const certificates = [
         title: "Introduction to Cybersecurity",
         org: "Cisco",
         date: "August 2024",
-        img: "https://media.licdn.com/dms/image/v2/D4E2DAQFuSGuR663GJA/profile-treasury-document-images_800/profile-treasury-document-images_800/1/1709388819908?e=1767830400&v=beta&t=GDcTKZfCJVqkQQcK5L9fRcqA_Apdgi2q4vOs1bWGUig",
+        img: "./images/1709388819908.jpg",
         link: "https://www.credly.com/badges/f691b8db-cc25-4863-9fcb-fd1dc9a3db08/linked_in_profile"
     },
     {
