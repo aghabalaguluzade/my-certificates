@@ -22,42 +22,42 @@ const certificates = [
         title: "Certified Associate Penetration Tester (CAPT)",
         org: "Hackviser",
         date: "December 2025",
-        img: "https://media.licdn.com/dms/image/v2/D4E2DAQFEdZByKZ6SBQ/profile-treasury-image-shrink_800_800/B4EZrZibh9KkAY-/0/1764586275126?e=1767466800&v=beta&t=8R-okqewRhm6eGwZn7bIoFdmapGCuLVbyjUOQJYz7jc",
+        img: "./images/1764586275126.jpg",
         link: "https://hackviser.com/verify?id=HV-CAPT-C54RP13O"
     },
     {
         title: "Jr Penetration Tester",
         org: "TryHackMe",
         date: "November 2025",
-        img: "https://media.licdn.com/dms/image/v2/D4E2DAQEkiOT1pPvErg/profile-treasury-image-shrink_800_800/B4EZptcpcMIQAY-/0/1762772818532?e=1767466800&v=beta&t=f4bRXlDh54pP2L7A3f_hwU86CozRi9PZmXNiQY6BgHY",
+        img: "./images/1762772818532.jpg",
         link: "https://tryhackme.com/certificate/THM-VUNPMYP5W0"
     },
     {
         title: "CompTIA Pentest+",
         org: "TryHackMe",
         date: "November 2025",
-        img: "https://media.licdn.com/dms/image/v2/D4E2DAQGPOtScnjeVfw/profile-treasury-image-shrink_800_800/B4EZo_DVKSKYAY-/0/1761994430174?e=1767466800&v=beta&t=Up6SVlUL4mSWFA5twyVJ44brvYujvEAkP5s83OQWL4s",
+        img: "./images/1761994430174.jpg",
         link: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-AJO4DIG0EG.pdf"
     },
     {
         title: "Offensive Pentesting",
         org: "TryHackMe",
         date: "November 2025",
-        img: "https://media.licdn.com/dms/image/v2/D4E2DAQHZUsUY6Lu34A/profile-treasury-image-shrink_800_800/B4EZo_EDuzKsAY-/0/1761994623063?e=1767466800&v=beta&t=pd-QwEiOuuEJTydm4pOWJgmxezwhzWp4Y0T1IPzKtNo",
+        img: "./images/1761994623063.jpg",
         link: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-CCPQEWPTVT.pdf"
     },
     {
         title: "Red Teaming",
         org: "TryHackMe",
         date: "November 2025",
-        img: "https://media.licdn.com/dms/image/v2/D4E2DAQEN8iPIuCksTw/profile-treasury-image-shrink_800_800/B4EZpYytV.KcAc-/0/1762426280841?e=1767466800&v=beta&t=8XtXAPIwM-lftpol8F4DbQWDht6rixLJm-ZvWEEYS6I",
+        img: "./images/1762426280841.jpg",
         link: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-6MYZH8MLOZ.pdf"
     },
     {
         title: "Web Application Pentesting",
         org: "TryHackMe",
         date: "October 2025",
-        img: "https://media.licdn.com/dms/image/v2/D4E2DAQFaXJWCjPFZ3Q/profile-treasury-image-shrink_800_800/B4EZoqZknTHgAY-/0/1761647939258?e=1767466800&v=beta&t=RZmtBb2tE23Xvo8LlYsbDF-LkS1eyU67629ih2XXh-Q",
+        img: "./images/1761647939258.jpg",
         link: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-XUSY8NMZXV.pdf"
     },
     {
@@ -78,14 +78,14 @@ const certificates = [
         title: "Blue Team Junior Analyst",
         org: "Security Blue Team",
         date: "May 2025",
-        img: "https://media.licdn.com/dms/image/v2/D4E2DAQFkarfnevWnIw/profile-treasury-document-images_800/B4EZaldFRAHcAk-/1/1746532590263?e=1767830400&v=beta&t=B7lHtdODd0vVohK-GtON6skg7_X9LkxC0ivqK_fneUw",
+        img: "./images/1746532590263.jpg",
         link: "https://elearning.securityblue.team/home/certificate/868705560"
     },
     {
         title: "Pentesting",
         org: "Turkcell Geleceği Yazanlar",
         date: "February 2025",
-        img: "https://media.licdn.com/dms/image/v2/D4E2DAQEC5pa5TS_XQQ/profile-treasury-document-images_800/B4EZVDlcguG0Ak-/1/1740595646279?e=1767830400&v=beta&t=SgOFRhGHnz8LYttpWgNm_gHAHeYAlZNluewds0F8DRE",
+        img: "./images/1740595646279.jpg",
         link: "https://gelecegiyazanlar.turkcell.com.tr/sertifika/%2Fsertifika%2Fdwlkmzq1mdm5y2lkntkzntjxawqxodzlbmq%3D"
     },
     {
