@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="hero">
+    <h1>Mən <span class="accent">[Aghabala Guluzade]</span></h1>
+    <p>My certificate portfolio 👇</p>
+</header>
+
+<nav class="nav">
+    <a href="#about-section">About me</a>
+    <a href="#cert-section">Certificates</a>
+    <a href="#contact-section">Contact</a>
+</nav>
+
+<main class="container">
+
+    <!-- About me -->
+    <section id="about-section">
+        <h2 class="title">About me</h2>
+        <p class="about-text">
+            Hello! I am <strong>[Aghabala Guluzade]</strong>, a Cybersecurity Specialist.
+            I began my professional career as a backend developer, where I gained deep expertise in programming and system architecture. Later, I transitioned into the field of cybersecurity, specializing in security protocols, vulnerability detection, and risk management. The experience I’ve gained in both domains allows me to deliver effective solutions for developing and securing complex systems.
+        </p>
+        <div class="socials">
+            <a href="https://github.com/aghabalaguluzade" target="_blank">GitHub</a>
+            <a href="https://instagram.com/aghabalaguluzade" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/in/aghabala-guluzade-077031188" target="_blank">LinkedIn</a>
+            <a href="https://medium.com/@aghabalaguluzade" target="_blank">Medium</a>
+            <a href="https://www.canva.com/design/DAGPcO8GHQ4/mRjGYc3U_Ku6Ap-LsoTF-Q/edit?utm_content=DAGPcO8GHQ4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">CV</a>
+        </div>
+    </section>
+
+    <!-- Certificates -->
+    <section id="cert-section">
+        <h2 class="title">Certificates</h2>
+        <div id="certificates" class="cards"></div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact-section">
+        <h2 class="title">Contact</h2>
+        <form id="contact-form">
+            <input type="text" name="from_name" placeholder="Name*" required>
+            <input type="email" name="reply_to" placeholder="Email*" required>
+            <input type="text" name="title" placeholder="Title*" required>
+            <textarea name="message" placeholder="Message*" rows="5" required></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+
+</main>
+
+<!-- Modal -->
+<div id="certModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <img id="modal-img" src="" alt="Certificates">
+        <h3 id="modal-title"></h3>
+        <p id="modal-desc"></p>
+        <p class="small-text" id="modal-info"></p>
+        <a id="modal-link" href="#" target="_blank" class="btn">Show the certificate of competence.</a>
+    </div>
+</div>
+
+<footer>
+    <p style="text-align:center; font-weight:bold;">© 2026 <span class="accent">[Aghabala Guluzade]</span></p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="scripts.js"></script>
+
+</body>
+</html>

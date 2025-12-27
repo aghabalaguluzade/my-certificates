@@ -1,0 +1,159 @@
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background: #fdfdfd; color: #333;
+}
+.hero {
+    background: linear-gradient(130deg, #4b79a1, #283e51);
+    color: white; text-align: center; padding: 60px 10px;
+}
+.accent { color: #ffd700; }
+.nav {
+    display: flex; justify-content: center; gap: 18px;
+    background: #fff; padding: 14px;
+}
+.nav a {
+    color: #4b79a1; font-weight: 600;
+}
+.nav a:hover { text-decoration: underline; }
+
+/* Title */
+.title {
+    text-align: center; margin: 22px 0;
+    font-size: 1.8rem; color: #4b79a1;
+}
+
+/* Cards */
+.container { width: 90%; margin: auto; }
+
+/* Certificates Cards */
+.cards {
+    display: grid; gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    margin-bottom: 40px;
+}
+.card {
+    background: white; border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+.card img {
+    width: 100%; border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-body {
+    padding: 12px 14px;
+}
+.card-body h3 {
+    margin: 6px 0; font-size: 1.2rem;
+}
+.card-body p {
+    font-size: .95rem; margin: 4px 0;
+    color: #555;
+}
+.btn {
+    display: inline-block;
+    background: #4b79a1; color: white;
+    padding: 8px 14px; border-radius: 6px;
+    margin-top: 8px; text-align: center;
+}
+.btn:hover { background: #35516a; }
+
+/* Modal */
+.modal {
+    display:none; position:fixed;
+    top:0; left:0; width:100%; height:100%;
+    background:rgba(0,0,0,0.65); justify-content:center; align-items:center;
+}
+.modal-content {
+    background: white; padding: 22px; border-radius: 10px;
+    width: 90%; max-width: 720px; text-align:center;
+    position: relative;
+}
+.close-btn {
+    position:absolute; top:12px; right:14px;
+    font-size: 1.8rem; cursor: pointer;
+}
+.modal-content img {
+    width: 100%; border-radius: 8px; margin-bottom: 12px;
+}
+.small-text { font-size: .85rem; color: #777; margin-top: 6px; }
+
+/* Contact Form */
+#contact-form {
+    display: flex; flex-direction:column; gap: 12px;
+    width: 100%; max-width: 420px;
+    margin: auto; margin-bottom: 40px;
+}
+#contact-form input,
+#contact-form textarea {
+    padding: 12px; border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+#contact-form input:focus,
+#contact-form textarea:focus {
+    border-color: #4b79a1; outline: none;
+}
+
+/* Portfolio */
+.portfolio-grid {
+    display: grid; gap: 18px; grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
+}
+.portfolio-card {
+    background: #eef2f7; padding: 18px;
+    border-radius: 10px; text-align: center;
+    color: #555;
+}
+
+/* Social Links */
+.socials {
+    margin-top: 12px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.socials a {
+    background: #4b79a1;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: .3s;
+}
+.socials a:hover {
+    background: #35516a;
+}
+
+/* About */
+.about-text {
+    text-align: center;
+    margin-bottom: 18px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Button colors */
+.btn {
+    background: #4b79a1;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: .3s;
+}
+.btn:hover {
+    background: #35516a;
+}
+
+.cards img {
+    width: 301px;
+    height: 233px;
+}
