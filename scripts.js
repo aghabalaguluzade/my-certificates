@@ -5,6 +5,13 @@
 // Certificates
 const certificates = [
     {
+        title: "Web Red Team Analyst (Web-RTA)",
+        org: "CyberWarFare Labs",
+        date: "January 2026",
+        img: "./images/Web Red Team Analyst (Web-RTA) Certificate_page-0001.jpg",
+        link: "https://labs.cyberwarfare.live/credential/achievement/695d4976350a0624a43933a9"
+    },
+    {
         title: "Certified Red Team Operations Management (CRTOM)",
         org: "Red Team Leaders",
         date: "December 2025",
