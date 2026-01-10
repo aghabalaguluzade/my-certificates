@@ -68,6 +68,27 @@ const certificates = [
         link: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-XUSY8NMZXV.pdf"
     },
     {
+        title: "Web Fundamentals",
+        org: "TryHackMe",
+        date: "October 2025",
+        img: "./images/Web Fundamentals.jpg",
+        link: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-TKBJVOPW7N.pdf"
+    },
+    {
+        title: "Cyber Security 101",
+        org: "TryHackMe",
+        date: "October 2025",
+        img: "./images/Cyber Security 101.jpg",
+        link: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-YMJJOPDSHQ.pdf"
+    },
+    {
+        title: "Pre Security",
+        org: "TryHackMe",
+        date: "October 2025",
+        img: "./images/Pre Security.jpg",
+        link: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-ARD0Z9Z0KO.pdf"
+    },
+    {
         title: "Code Sentinel Internship Program",
         org: "Code Sentinel",
         date: "July 2025",
