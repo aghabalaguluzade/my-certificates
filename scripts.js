@@ -133,7 +133,7 @@ const certificates = [
     {
         title: "Microsoft Office",
         org: "Bakı Şəhər Mədəniyyət Baş İdarəsi Mədəni Tədbirlər Təşkili və Yaradıcı Gənclərlə İş üzrə Mərkəz Xəzər rayonu Asudə Vaxt Mərkəzi",
-        date: "August 2022",
+        date: "January 2019",
         img: "./images/f9770bbf-47f7-4b39-b57b-557d6f13864fa.jpg",
         link: ""
     },
