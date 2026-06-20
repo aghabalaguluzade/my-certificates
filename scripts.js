@@ -187,3 +187,5 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
         alert("An error occurred, please try again.");
     });
 });
+
+document.getElementById("year").textContent = new Date().getFullYear();
