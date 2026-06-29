@@ -5,6 +5,13 @@
 // Certificates
 const certificates = [
     {
+        title: "ISO/IEC 27701:2025 Lead Auditor",
+        org: "Mastermind",
+        date: "June 2026",
+        img: "./images/certificate-fhnxouq9kd.jpg",
+        link: "https://learn.mastermindassurance.com/certificates/fhnxouq9kd"
+    },
+    {
         title: "Web Red Team Analyst (Web-RTA)",
         org: "CyberWarFare Labs",
         date: "January 2026",
